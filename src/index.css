@@ -1,0 +1,16 @@
+:root {
+  color-scheme: dark;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --accent: #1ec8ff;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  margin: 0;
+  height: 100%;
+  background: #04070e;
+  overflow: hidden;
+}
+
+canvas { display: block; touch-action: none; }
